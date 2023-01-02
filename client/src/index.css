@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(145deg, rgba(0, 0, 0, 1) 0%,  rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 0.6) 40%,  rgba(0, 0, 0) 80%), url("./assets/img/beautiful-blue-stars-fill.jpg");
+  background-color: rgba(0, 0, 0, 0.9);
+  background-repeat: repeat; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "Meteora";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./assets//font/MeteoraDemoRegular-nMEV.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Broshk";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./assets//font/Broshk-n6mR.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Glam";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./assets//font/Glametrix-oj9A.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Glam-light";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./assets//font/GlametrixLight-0zjo.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Glam-bold";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./assets//font/GlametrixBold-4dW6.otf") format("opentype");
+}
+
+
+

@@ -1,0 +1,127 @@
+
+
+.header {
+    height: 8rem;
+    animation: expanding linear 0.5s;
+    .button, .button__cta {
+        font-size: 1.5rem;
+        transition: 0.5s;
+    }
+    .nav__list__item__link__home {
+        font-size: 4rem;
+        transition: 0.5s;
+    }
+}
+.smallHeader {
+    
+    animation: shrinking linear 0.5s;
+    .button, .button__cta {
+        font-size: 1rem;
+        transition: 0.5s;
+    }
+    .nav__list__item__link__home {
+        font-size: 3rem;
+        transition: 0.5s;
+    }
+}
+
+
+
+@keyframes shrinking {
+    0% {
+        height: 8rem;
+    }
+    50% {
+        height: 6.5rem
+    }
+    100% {
+        height: 5rem
+    }
+}
+
+@keyframes expanding {
+    0% {
+        height: 5rem;
+    }
+    50% {
+        height: 6.5rem
+    }
+    100% {
+        height: 8rem
+    }
+}
+
+.header__wrapper {
+    min-height: 8rem;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header, .smallHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: #CAF0F8 solid 0.25rem;
+    background-color: #020216;
+    .nav__list {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        .nav__list__item {
+            text-decoration: none;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            .nav__list__item__link {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    .button__container {
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+        justify-content: center;
+        align-items: center;
+        margin: 0 2vw;
+        .nav__list__item__link, .nav__list__item__link__cta {
+            text-decoration: none;
+            font-family: 'Meteora';
+            cursor: pointer;
+            .button, .button__cta {
+                text-decoration: none;
+                padding: 0.75rem 1.5rem;
+                border-radius: 1rem;
+                font-weight: bold;
+
+            } 
+        }
+        .nav__list__item__link__cta {
+            .button__cta {
+                background-color: white;
+                border: #CAF0F8 solid 0.25rem;
+                color: #020216;
+            }
+        }
+        .nav__list__item__link {
+            .button {
+                background-color: #020216;
+                border: #CAF0F8 solid 0.25rem;
+                color: white;
+            }
+        }
+        .nav__list__item__link__home {
+            text-decoration: none;
+            color: white;
+            font-family: 'Broshk';
+            padding: 0.75rem 1.5rem;
+        }
+    }
+}
+
+
+
+

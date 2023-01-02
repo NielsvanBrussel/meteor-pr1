@@ -1,0 +1,148 @@
+@-webkit-keyframes waps {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes waps {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.wrapper {
+  margin: 3rem auto;
+  max-width: 50rem;
+  -webkit-animation: waps 1s ease-in;
+          animation: waps 1s ease-in;
+}
+
+.form__container {
+  background-color: #020216;
+  padding: 2rem 5vw;
+  border-radius: 1rem;
+  border: #CAF0F8 solid 0.125rem;
+  margin: 5rem 2rem;
+}
+
+.form__container .form__header__flexbox {
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.form__container .form__header__flexbox .form__main__header {
+  font-family: 'Meteora';
+  font-size: 3rem;
+}
+
+.form__container .form__container__inner {
+  margin: 15vh 0 10vh 0;
+}
+
+.form__container .form__container__inner .errormessage {
+  color: white;
+  text-align: center;
+}
+
+.form__container .form__container__inner .form__content .form__content__inner .form .form__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2rem;
+  height: 3.5rem;
+}
+
+.form__container .form__container__inner .form__content .form__content__inner .form .form__flex .form__label {
+  font-family: 'Meteora';
+  color: white;
+  font-size: 1.4rem;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__container .form__container__inner .form__content .form__content__inner .form .form__flex .form__input {
+  width: 70%;
+  font-family: 'Meteora';
+  padding: 0rem 1rem;
+  border-radius: 0.25rem;
+  border: #CAF0F8 solid 0.125rem;
+}
+
+.form__container .form__container__inner .form__content .form__content__inner .form .form__button__container {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4rem 0rem 2rem;
+}
+
+.form__container .form__container__inner .form__content .form__content__inner .form .form__button__container .form__button {
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  border: #CAF0F8 solid 0.25rem;
+  font-family: 'Meteora';
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form__container .form__subtext__container .form__subtext__container__item {
+  text-align: center;
+}
+
+.form__container .form__subtext__container .form__subtext__container__item .form__subtext {
+  color: white;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Glam-light';
+  font-size: 1.2rem;
+}
+
+.form__container .form__subtext__container .form__subtext__container__item .form__subtext .form__subtext__link {
+  margin: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Login.module.css.map */

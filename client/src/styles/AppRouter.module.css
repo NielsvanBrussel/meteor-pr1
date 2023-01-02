@@ -1,0 +1,186 @@
+.header {
+  height: 8rem;
+  -webkit-animation: expanding linear 0.5s;
+          animation: expanding linear 0.5s;
+}
+
+.header .button, .header .button__cta {
+  font-size: 1.5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header .nav__list__item__link__home {
+  font-size: 4rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.smallHeader {
+  -webkit-animation: shrinking linear 0.5s;
+          animation: shrinking linear 0.5s;
+}
+
+.smallHeader .button, .smallHeader .button__cta {
+  font-size: 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.smallHeader .nav__list__item__link__home {
+  font-size: 3rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@-webkit-keyframes shrinking {
+  0% {
+    height: 8rem;
+  }
+  50% {
+    height: 6.5rem;
+  }
+  100% {
+    height: 5rem;
+  }
+}
+
+@keyframes shrinking {
+  0% {
+    height: 8rem;
+  }
+  50% {
+    height: 6.5rem;
+  }
+  100% {
+    height: 5rem;
+  }
+}
+
+@-webkit-keyframes expanding {
+  0% {
+    height: 5rem;
+  }
+  50% {
+    height: 6.5rem;
+  }
+  100% {
+    height: 8rem;
+  }
+}
+
+@keyframes expanding {
+  0% {
+    height: 5rem;
+  }
+  50% {
+    height: 6.5rem;
+  }
+  100% {
+    height: 8rem;
+  }
+}
+
+.header__wrapper {
+  min-height: 8rem;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.header, .smallHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: #CAF0F8 solid 0.25rem;
+  background-color: #020216;
+}
+
+.header .nav__list, .smallHeader .nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+}
+
+.header .nav__list .nav__list__item, .smallHeader .nav__list .nav__list__item {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .nav__list .nav__list__item .nav__list__item__link, .smallHeader .nav__list .nav__list__item .nav__list__item__link {
+  text-decoration: none;
+  color: white;
+}
+
+.header .button__container, .smallHeader .button__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 2vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 2vw;
+}
+
+.header .button__container .nav__list__item__link, .header .button__container .nav__list__item__link__cta, .smallHeader .button__container .nav__list__item__link, .smallHeader .button__container .nav__list__item__link__cta {
+  text-decoration: none;
+  font-family: 'Meteora';
+  cursor: pointer;
+}
+
+.header .button__container .nav__list__item__link .button, .header .button__container .nav__list__item__link .button__cta, .header .button__container .nav__list__item__link__cta .button, .header .button__container .nav__list__item__link__cta .button__cta, .smallHeader .button__container .nav__list__item__link .button, .smallHeader .button__container .nav__list__item__link .button__cta, .smallHeader .button__container .nav__list__item__link__cta .button, .smallHeader .button__container .nav__list__item__link__cta .button__cta {
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: bold;
+}
+
+.header .button__container .nav__list__item__link__cta .button__cta, .smallHeader .button__container .nav__list__item__link__cta .button__cta {
+  background-color: white;
+  border: #CAF0F8 solid 0.25rem;
+  color: #020216;
+}
+
+.header .button__container .nav__list__item__link .button, .smallHeader .button__container .nav__list__item__link .button {
+  background-color: #020216;
+  border: #CAF0F8 solid 0.25rem;
+  color: white;
+}
+
+.header .button__container .nav__list__item__link__home, .smallHeader .button__container .nav__list__item__link__home {
+  text-decoration: none;
+  color: white;
+  font-family: 'Broshk';
+  padding: 0.75rem 1.5rem;
+}
+/*# sourceMappingURL=AppRouter.module.css.map */

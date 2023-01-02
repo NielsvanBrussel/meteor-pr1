@@ -1,0 +1,92 @@
+@import '../../styles/partials/_global';
+@import '../../styles/partials/_variables';
+
+
+.form__container {
+    background-color: $color-blackblue;
+    padding: 2rem 5vw;
+    border-radius: 1rem;
+    border: $color-whiteblue solid 0.125rem;
+    margin: 5rem 2rem;
+    .form__header__flexbox {
+        color: white;
+        align-items: center;
+        text-align: center;
+        .form__main__header {
+            font-family: 'Meteora';
+            font-size: 3rem; 
+        }
+    }
+    .form__container__inner {
+        margin: 15vh 0 10vh 0;
+        .errormessage {
+            color: $color-white;
+            text-align: center;
+        }
+        .form__content {
+            .form__content__inner {
+                .form {
+                    .form__flex {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        margin-bottom: 2rem;
+                        height: 3.5rem;
+                        .form__label {
+                            font-family: 'Meteora';
+                            color: $color-white;
+                            font-size: 1.4rem;
+                            width: 30%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                        }
+                        .form__input {
+                            width: 70%;
+                            font-family: 'Meteora';
+                            padding: 0rem 1rem;
+                            border-radius: 0.25rem;
+                            border: $color-whiteblue solid 0.125rem;
+                        }
+                    }
+                    .form__button__container {
+                        align-content: center;
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                        margin: 4rem 0rem 2rem;
+                        .form__button {
+                            text-decoration: none;
+                            padding: 0.75rem 1.5rem;
+                            border-radius: 1rem;
+                            font-weight: bold;
+                            border: $color-whiteblue solid 0.25rem;
+                            font-family: 'Meteora';
+                            font-size: 1rem;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .form__subtext__container {
+        .form__subtext__container__item {
+            text-align: center;
+            .form__subtext {
+                color: $color-white;
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                font-family: 'Glam-light';
+                font-size: 1.2rem;
+                .form__subtext__link {
+                    margin: 0;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
