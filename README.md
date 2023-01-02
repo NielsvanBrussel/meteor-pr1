@@ -2,8 +2,11 @@ This is small testrepo for graphql/express/websockets/mongoDB backend and typesc
 
 
 
+
 server: npm run dev
+
 cd client => npm start
+
 
 
 env:
